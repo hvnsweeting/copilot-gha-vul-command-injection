@@ -15,6 +15,9 @@ Using the latest model GPT 4o, I tried to create a GitHub action to run a comman
 ```
  could work after some modifcation i.e. [allow action to WRITE](https://github.com/ad-m/github-push-action/issues/96#issuecomment-889984928), it has serious security issues:
 
+
+![vscode](vscode.png)
+
 ## Command injection
 Users who can run the action (e.g in an org) can execute any command by add `; command` to the filename input. For example here run with filename
 
