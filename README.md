@@ -62,5 +62,11 @@ While this is buried under "Security" section of GitHub Action docs, user who us
 
 https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions#example-of-a-script-injection-attack
 
-## Should not trust Copilot than anyone on internet :joy:
-## Work with GitHub action is painful :cry:
+
+## Conclusion
+### Should not trust Copilot than anyone on internet :joy:
+### Work with GitHub action is painful :cry:
+
+## Futher readings
+- https://securitylab.github.com/resources/github-actions-untrusted-input/
+- https://www.kenmuse.com/blog/github-actions-injection-attacks/
